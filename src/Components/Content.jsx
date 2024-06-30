@@ -33,7 +33,7 @@ const Content = ({ type, searchQuery }) => {
 //   a variable to access the program type
 const dataToFilter = data.entries
 .filter(entry => entry.programType === type && entry.releaseYear >= 2010)
-.filter(entry => entry.title.toLowerCase().includes(searchQuery.toLowerCase()))
+.filter(entry => searchQuery.length < 3 || entry.title.toLowerCase().includes(searchQuery.toLowerCase()))
 .sort((a, b) => a.title.localeCompare(b.title))
 .slice(0, 21);
 

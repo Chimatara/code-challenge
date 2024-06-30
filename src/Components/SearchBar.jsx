@@ -1,7 +1,7 @@
 import React from "react";
 import { FcSearch } from "react-icons/fc";
 
-const SearchBar = () => {
+const SearchBar = ({ setSearchQuery }) => {
   const handleInputChange = (e) => {
     setSearchQuery(e.target.value);
   };
