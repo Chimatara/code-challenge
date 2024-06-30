@@ -4,8 +4,8 @@ import { FcSearch } from 'react-icons/fc'
 const SearchBar = () => {
   return (
     <div className='mySearch'>
-         <input type="text" placeholder='Search..'/>
-         <button className='search-btn'>{FcSearch}</button>
+         <input className='search' type="text" placeholder='Search..'/>
+         <button className='search-btn'><FcSearch /></button>
     </div>
   )
 }

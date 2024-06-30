@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({title}) => {
   return (
     <header>
         <nav>
@@ -12,7 +12,7 @@ const Header = () => {
                 </span>
             </div>
             <div className="popular">
-                <h2>Popular Titles</h2>
+                <h2>{title}</h2>
             </div>
         </nav>
     </header>

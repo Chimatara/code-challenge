@@ -1,17 +1,18 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './Main.css';
-import Header from './Components/Header'
+import Home from './Components/Home/Home';
+import Movies from './Components/MoviesPage/Movies'
+import Series from './Components/SeriesPage/Series'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      {/* <Router>
+      <Router>
          <Routes>
-            <Route />
+            <Route path='/' element={<Home />}/>
+            <Route path='/movies' element={<Movies/>}/>
+            <Route path='/series' element={<Series />}/>
          </Routes>
-      </Router> */}
-    </div>
+      </Router>
   );
 }
 

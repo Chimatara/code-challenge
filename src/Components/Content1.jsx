@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import PlaceholderImage from '../myAssets/assets/placeholder.png'
 
 const Content1 = () => {
@@ -6,23 +7,27 @@ const Content1 = () => {
     <div className='home'>
             <div className="options">
                 <div className="series">
-                    <a href="#">
+                    <Link to='/series'>
                         <img src={PlaceholderImage} alt="Movie Poster" />
-                    </a>
+                    </Link>
                     <p className='myseries'>Series</p>
                 </div>
                 
                 <div className="movies">
-                    <a href="#">
+                    <Link to='/movies'>
                         <img src={PlaceholderImage} alt="Movie Poster" />
-                    </a>
+                    </Link>
                     <p className="mymovies">Movies</p>
                 </div>
             </div>
 
             <div className="movie-links">
-                <div><a href="#">Popular Series</a></div>
-                <div><a href="#">Popular Movies</a></div>
+                <div>
+                   <Link to='/series'>Popular Series</Link>
+                </div>
+                <div>
+                    <Link to='/movies'>Popular Movies</Link>
+                </div>
             </div>
     </div>
   )
