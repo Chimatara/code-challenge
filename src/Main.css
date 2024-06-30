@@ -148,6 +148,9 @@ nav h2{
 
   /* CONTENT */
   .poster-img{
+    height: 250px;
+    width: 180px;
+    object-fit: cover;
     padding: 20px 0 2px 0;
   }
   .about-movies{
