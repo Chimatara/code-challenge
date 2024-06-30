@@ -11,7 +11,7 @@ const style = {
 };
 
 // I passed props to be able to access both the movies and series since their implementation refers to same component.
-const Content = ({ type, searchQuery, sortData }) => {
+const Content = ({ type, searchQuery = '', sortData = '' }) => {
   const { data, isLoading, error } = useFetchData();
   const style = { textAlign: "center", padding: "20px" };
 
