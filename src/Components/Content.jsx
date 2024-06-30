@@ -1,5 +1,6 @@
 import React from 'react'
 import Poster from '../myAssets/assets/pexels-cottonbro-2773497.jpg'
+import { useFetchData } from './getData'
 
 const style = {
     height: '250px',
@@ -11,6 +12,23 @@ const style = {
   
 
 const Content = () => {
+  const { data, isLoading, error } = useFetchData()
+
+  if(isLoading){
+    return(
+        <div>
+            <p>Loading...</p>
+        </div>
+    )
+  }
+  if(error){
+    return(
+        <div>
+            <p>Oops. Something went wrong</p>
+        </div>
+    )
+  }
+
   return (
     <div className='content-two'>
 
