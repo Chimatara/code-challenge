@@ -7,7 +7,7 @@ const Movies = () => {
   return (
     <div>
        <Header title='Popular Movies'/>
-       <Content2 />
+       <Content2 type='movie'/>
     </div>
   )
 }

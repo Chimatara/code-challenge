@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Sort from './Sort'
 import Content from './Content'
 import SearchBar from '../Components/SearchBar'
 
-const Content2 = () => {
+const Content2 = ( {type}) => {
+  const [searchQuery, setSearchQuery] = useState('')
+
   return (
     <div className='content-two'>
         <div className="search-feature">
-            <SearchBar />
+            <SearchBar setSearchQuery={setSearchQuery}/>
             <Sort />
         </div>
-        <Content />
+        <Content type={type} searchQuery={searchQuery}/>
     </div>
   )
 }

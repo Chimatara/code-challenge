@@ -7,7 +7,7 @@ const Series = () => {
   return (
     <div>
         <Header title='Popular Series' />
-        <Content />
+        <Content type='series'/>
         <Footer />
     </div>
   )
