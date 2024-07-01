@@ -265,3 +265,72 @@ nav h2{
 .apps svg{
     margin: 0 10px;
 }
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 360px){
+  
+    .logo{
+      margin: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    .login{
+        text-align: center;
+        width: 45%;
+        padding: 20px 0;
+    }
+    nav span{
+        display: flex;
+        margin: 0;
+    }
+    
+    nav button{
+        padding: 5px;
+        font-size: 0.7rem;
+        width: 50%;
+    }
+    nav h2{
+        margin: 0;
+    }
+
+    .all{
+        margin: 0;
+        padding: 0;
+    }
+    .footer .links .link, span{
+        text-decoration: none;
+        color: #84878A;
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+    .copyright p{
+        font-size: 0.7rem;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        justify-content: space-between;
+    }
+    .socials{
+        margin:  20px;
+    }
+    .socials svg{
+        height: 30px;
+        width: 30px;
+        display: block;
+        padding: 5px 0;
+    }
+    .socials svg:not(:first-of-type){
+     margin: 0 ;
+    }
+    .apps svg{
+        margin: 20px 5px;
+        width: 100px;
+    }
+    
+}

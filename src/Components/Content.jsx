@@ -1,5 +1,4 @@
 import React from "react";
-import Poster from "../myAssets/assets/pexels-cottonbro-2773497.jpg";
 import { useFetchData } from "./getData";
 
 const style = {
