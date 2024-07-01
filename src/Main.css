@@ -332,5 +332,18 @@ nav h2{
         margin: 20px 5px;
         width: 100px;
     }
+
+    .poster-img{
+        height: 150px;
+        width: 100px;
+        padding: 10px 0 2px 0;
+      }
+      .content-two .movie-posters {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        flex-wrap: wrap;
+      }
+    
+      
     
 }
