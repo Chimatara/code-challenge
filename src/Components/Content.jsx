@@ -1,7 +1,7 @@
 import React from "react";
 import { useFetchData } from "./getData";
 
-const style = {
+const style1 = {
   height: "250px",
   width: "180px",
   objectFit: "cover",
@@ -67,7 +67,7 @@ const Content = ({ type, searchQuery = '', sortData = '' }) => {
               <img
                 className="poster-img"
                 src={movie.images["Poster Art"].url}
-                style={style}
+                style={style1}
                 alt={`${movie.title} Poster`}
               />
 
