@@ -64,22 +64,20 @@ const Content = ({ type, searchQuery = '', sortData = '' }) => {
       <div className="movie-posters">
         {sortEntries.map((movie, index) => (
           <div key={index} className="image">
-            <a href="#">
               <img
                 className="poster-img"
                 src={movie.images["Poster Art"].url}
                 style={style}
                 alt={`${movie.title} Poster`}
               />
-            </a>
 
             <div className="about-movies">
-              <a href="#" className="movie-title">
+              <p className="movie-title">
                 {movie.title}
-              </a>
-              <a href="#" className="releaseYear">
+              </p>
+              <p className="releaseYear">
                 {movie.releaseYear}
-              </a>
+              </p>
             </div>
           </div>
         ))}

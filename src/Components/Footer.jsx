@@ -5,28 +5,28 @@ const Footer = () => {
     <div className="footer">
       <div className="all">
         <div className="links">
-          <a href="#" className="link first">
+          <p className="link first">
             Home |
-          </a>
-          <a href="#" className="link first">
+          </p>
+          <p className="link first">
             Terms and Conditions
-          </a>
+          </p>
           <span>|</span>
-          <a href="#" className="link first">
+          <p className="link first">
             Privacy Policy
-          </a>
+          </p>
           <span>|</span>
-          <a href="#" className="link first">
+          <p className="link first">
             Collection Statement
-          </a>
+          </p>
           <span>|</span>
-          <a href="#" className="link first">
+          <p className="link first">
             Help
-          </a>
+          </p>
           <span>|</span>
-          <a href="#" className="link first">
+          <p className="link first">
             Manage Account
-          </a>
+          </p>
           <span>|</span>
         </div>
 

@@ -12,10 +12,10 @@ const Sort = ({setSortData}) => {
             <input type="text" className="sort" placeholder='Sort by'/>
             <button className="sort-btn"><MdArrowDropDownCircle/></button>
             <div className="dropdown-content">
-                <a href="#" onClick={() => handleSort('year-asc')}>Year in ascending order</a>
-                <a href="#" onClick={() => handleSort('year-desc')}>Year in descending order</a>
-                <a href="#" onClick={() => handleSort('title-asc')}>Title in ascending order</a>
-                <a href="#" onClick={() => handleSort('title-desc')}>Title in descending order</a>
+                <p onClick={() => handleSort('year-asc')}>Year in ascending order</p>
+                <p onClick={() => handleSort('year-desc')}>Year in descending order</p>
+                <p onClick={() => handleSort('title-asc')}>Title in ascending order</p>
+                <p onClick={() => handleSort('title-desc')}>Title in descending order</p>
             </div>
         </div>
 

@@ -42,8 +42,7 @@ nav span{
     display: flex;
     margin: var(--margin);
 }
-nav span a{
-    text-decoration: none;
+nav span p{
     color: var(--white);
     font-size: 0.87rem;
     padding: 20px;
@@ -128,16 +127,16 @@ nav h2{
     left: 0;
    
   }
-  .dropdown-content a {
+  .dropdown-content p {
     color: #1E1E1E;
     font-weight: 400;
     font-size: 0.87rem;
     padding: 12px 16px;
-    text-decoration: none;
+    cursor: pointer;
     display: block;
   }
   
-  .dropdown-content a:hover {
+  .dropdown-content p:hover {
     background-color: #017EFE;
     color: #E4E4E4;
   }
@@ -158,8 +157,7 @@ nav h2{
     display: flex;
     gap: 30px;
   }
-  .about-movies a{
-    text-decoration: none;
+  .about-movies p{
     color: #1E1E1E;
     padding-bottom: 20px;
   }
@@ -235,8 +233,10 @@ nav h2{
     margin: var(--margin);
     padding: var(--padding);
 }
+.links{
+    display: flex;
+}
 .footer .links .link, span{
-    text-decoration: none;
     color: #84878A;
     font-weight: 400;
     font-size: 1rem;
@@ -270,7 +270,7 @@ nav h2{
 
 /* just a little media query */
 /* MEDIA QUERIES */
-@media screen and (min-width: 360px){
+@media screen and (max-width: 360px){
   
     .logo{
       margin: 10px;
