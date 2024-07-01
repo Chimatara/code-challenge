@@ -6,7 +6,7 @@ import Series from './Components/SeriesPage/Series'
 
 function App() {
   return (
-      <Router>
+      <Router basename="/">
          <Routes>
             <Route path='/' element={<Home />}/>
             <Route path='/movies' element={<Movies/>}/>
