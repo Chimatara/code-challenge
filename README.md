@@ -22,16 +22,18 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone git@github.com:Chimatara/code-challenge.git
 cd your-repo-name
 ```
 
-2. Instal dependencies
-```npm install
+2. Install dependencies
+```
+npm install
 ```
 
 3. Run the development server
-```npm start
+```
+npm start
 ```
 The app will be available at http://localhost:3000.
 
