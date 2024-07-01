@@ -56,7 +56,10 @@ Once the app is running, you can:
 * Sort: Use the dropdown menu to sort movies by year or title in both ascending and descending order.
 * Filter: Only movies released from 2010 onwards are displayed.
 
+### Demo Link
 
+Follow the link 
+https://chimatara-code-challenge.netlify.app/
 =======
 # Coding-Challenge
 Coding Challenge
