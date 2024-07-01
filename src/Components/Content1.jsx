@@ -25,7 +25,7 @@ const Content1 = () => {
                 <div>
                    <Link to='/series'>Popular Series</Link>
                 </div>
-                <div>
+                <div className='second'>
                     <Link to='/movies'>Popular Movies</Link>
                 </div>
             </div>
