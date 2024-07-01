@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Movie App
 
 This project is a movie app built with React, designed to fetch and display movie and series data from a JSON file hosted on GitHub. It includes features like search, sorting, and filtering. The app is styled and uses several libraries to manage data fetching, routing, and icons.
@@ -60,4 +60,3 @@ Once the app is running, you can:
 =======
 # Coding-Challenge
 Coding Challenge
->>>>>>> origin/main
